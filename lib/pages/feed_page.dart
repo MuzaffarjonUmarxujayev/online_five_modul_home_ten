@@ -169,7 +169,7 @@ class _FeedPageState extends State<FeedPage> {
                     const SizedBox(
                       width: 10,
                     ),
-                    Text(post.username),
+                    Text(post.username,style: const TextStyle(color: Colors.grey),),
                   ],
                 ),
                 IconButton(
